@@ -22,14 +22,15 @@ export const Default: Story = {
       </Typography>
     ),
     style: {
-      height: '400px',
+      height: '552px',
       padding: '24px',
-      width: '300px',
+      width: '420px',
     },
   },
 }
 export const CardSectionElement: Story = {
   args: {
+    as: 'section',
     children: (
       <Typography as={'h1'} variant={'h1'}>
         Card Section Element

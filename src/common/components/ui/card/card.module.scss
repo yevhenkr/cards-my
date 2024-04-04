@@ -1,44 +1,8 @@
-.box {
-  color: var(--color-light-100);
+.card {
   background-color: var(--color-dark-700);
   border: 1px solid #313131;
   border-radius: 2px;
-
-  &.info {
-    background-color: var(--color-info-300);
-    border-color: var(--color-info-500);
-  }
-}
-
-.title {
-  display: flex;
-  gap: 13px;
-  align-items: center;
-
-  margin: 0;
-  padding: 7px 24px 5px;
-
-  font-size: var(--font-size-m);
-  font-weight: 500;
-  line-height: var(--line-height-m);
-
-  background-color: var(--color-dark-700);
-
-  @media screen and (width <= 768px) {
-    padding: 6px 12px;
-  }
-}
-
-.content {
-  padding: 18px 24px;
-  font-size: var(--font-size-m);
-  line-height: var(--line-height-m);
-
-  .info & {
-    padding: 6px 24px;
-  }
-
-  @media screen and (width <= 768px) {
-    padding: 19px 12px 17px;
-  }
+  box-shadow:
+    1px 1px 2px rgb(0 0 0 / 10%),
+    -1px -1px 2px rgb(0 0 0 / 10%);
 }
