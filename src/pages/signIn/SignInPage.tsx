@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom'
 
 import { Page } from '@/common/components/ui/page'
-import { useLoginMutation } from '@/feature/auth/api/autchApi'
 import { LoginParams } from '@/feature/auth/api/auth.types'
+import { useLoginMutation } from '@/feature/auth/api/authApi'
 import { SignIn } from '@/feature/auth/ui/signIn'
 
 export const SignInPage = () => {
