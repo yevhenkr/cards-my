@@ -6,6 +6,7 @@ import { ControlledTextField } from '@/common/components/controlled/controlledTe
 import { Button } from '@/common/components/ui/button'
 import { Card } from '@/common/components/ui/card'
 import { Typography } from '@/common/components/ui/typography'
+import { DevTool } from '@hookform/devtools'
 // import { Route } from '@/common/enums'
 import { zodResolver } from '@hookform/resolvers/zod'
 import z from 'zod'
@@ -43,6 +44,7 @@ export const SignIn = ({ onSubmit }: Props) => {
         Sign In
       </Typography>
       <form className={s.form} onSubmit={handleSubmit(onSubmit)}>
+        <DevTool control={control} />
         <ControlledTextField
           className={s.inputEmail}
           control={control}
