@@ -6,6 +6,7 @@ import { Router } from '@/common/routes/Router'
 export function App() {
   return (
     <Provider store={store}>
+      <div></div>
       <Router />
     </Provider>
   )
