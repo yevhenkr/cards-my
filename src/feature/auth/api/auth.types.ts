@@ -25,3 +25,9 @@ export type SignUpParams = {
   sendConfirmationEmail?: boolean
   subject?: string
 }
+
+export type RecoverPassword = {
+  email: string
+  html?: string
+  subject?: string
+}
