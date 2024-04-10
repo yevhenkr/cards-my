@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  column-gap: 24px;
+  align-items: end;
+}
+
+.forTabSwitcher {
+  padding-top: 0;
+  padding-bottom: 0;
+}

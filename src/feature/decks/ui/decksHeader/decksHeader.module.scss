@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 7px;
+}
+
+.button {
+  width: var(--decksButtons);
+}
+
+@media (width <= 900px) {
+  .root {
+    margin-bottom: 24px;
+  }
+}
